@@ -1,0 +1,18 @@
+{
+  "name": "auxo_testautomation",
+  "version": "1.0.0",
+  "description": "Kalani Cypress Test Automation",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:chrome:headed": "cypress run --browser chrome --headed"
+  },
+  "author": "Kalani Amarathunga",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^10.0.0",
+    "cypress": "^14.5.4"
+  }
+}
